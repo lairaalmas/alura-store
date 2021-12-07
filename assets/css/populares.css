@@ -16,9 +16,9 @@
     "card-imagem"
     "card-corpo";
   grid-template-columns: 100%;
-  grid-template-rows: 173px auto ; /* linha da imagem e linha do corpo*/
+  /* grid-template-rows: 173px auto ; *//* linha da imagem e linha do corpo*//*
   margin-right: 1rem;
-  width: calc(20% - 1rem);
+  width: calc(20% - 1rem); */
 }
 
 .populares__card:last-child {

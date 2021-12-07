@@ -34,7 +34,7 @@
 }
 
 .destaques__secundario:nth-child(2) {
-  /* igual ao acima, mas usando shorthands */
+  /* igual ao de cima, mas usando shorthands */
   background: url("../img/pubg.jpg") center / cover no-repeat;
   grid-column: 4 / 4;
   grid-row: 1 / 1;
@@ -42,20 +42,21 @@
 
 .destaques__secundario:nth-child(3) {
   background: url("../img/slack.png") center / cover no-repeat;
-  grid-column: 4 / 4;
-  grid-row: 2 / 2;
+  /* essas infos tao na parte de reponsividade agora */
+  /* grid-column: 4 / 4; 
+  grid-row: 2 / 2; */
 }
 
 .destaques__secundario:nth-child(4) {
   background: url("../img/whatsapp.png") center / cover no-repeat;
-  grid-column: 4 / 4;
-  grid-row: 3 / 3;
+  /* grid-column: 4 / 4;
+  grid-row: 3 / 3; */
 }
 
 .destaques__secundario:nth-child(5) {
   background: url("../img/cs-go.jpg") center / cover no-repeat;
-  grid-column: 3 / 3;
-  grid-row: 3 / 3;
+  /* grid-column: 3 / 3;
+  grid-row: 3 / 3; */
 }
 
 .destaques__categorias {
