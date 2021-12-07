@@ -1,0 +1,83 @@
+.caixa {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.destaques {
+  display: grid;
+  grid-gap: .2rem;
+  grid-template-columns: 25% 25% 25% 25%; /* 4 colunas */
+  grid-template-rows: 33.3% 33.3% 33.3%; /* 3 linhas */
+  height: calc(100vh - 50px); /* tela toda - cabecalho */
+
+}
+
+.destaques__titulo {
+  background: rgb(0, 0, 0, .5);
+  color: #fdfdfd;
+  text-align: center;
+  padding: .6rem;
+  width: 100%;
+}
+
+.destaques__principal { /* classes estao nomeadas de acordo com metodologia BEM */
+  background-image: url("../img/fortnite.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover; /* cobrir toda div */
+
+  grid-column-start: 1; /* inclusivo - iniciado em 1 */
+  grid-column-end: 4; /* exclusivo */
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.destaques__secundario:nth-child(2) {
+  /* igual ao acima, mas usando shorthands */
+  background: url("../img/pubg.jpg") center / cover no-repeat;
+  grid-column: 4 / 4;
+  grid-row: 1 / 1;
+}
+
+.destaques__secundario:nth-child(3) {
+  background: url("../img/slack.png") center / cover no-repeat;
+  grid-column: 4 / 4;
+  grid-row: 2 / 2;
+}
+
+.destaques__secundario:nth-child(4) {
+  background: url("../img/whatsapp.png") center / cover no-repeat;
+  grid-column: 4 / 4;
+  grid-row: 3 / 3;
+}
+
+.destaques__secundario:nth-child(5) {
+  background: url("../img/cs-go.jpg") center / cover no-repeat;
+  grid-column: 3 / 3;
+  grid-row: 3 / 3;
+}
+
+.destaques__categorias {
+  grid-column: 1 / 3;
+  grid-row: 3 / 3;
+}
+
+.destaques__categorias___lista {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+.destaques__categorias___item {
+  display: flex;
+  align-items: center;
+  background: #fdfdfd;
+  border-left: 4px solid transparent;
+  color: #333333;
+  padding: 1rem;
+  width: 50%;
+}
+.destaques__categorias___link {
+  color: inherit;
+  text-align: center;
+}
