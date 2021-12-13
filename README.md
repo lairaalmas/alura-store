@@ -1,4 +1,4 @@
-# alura-store
+# Alura Store
 
 Projeto desenvolvido durante o curso de CSS Grid da Alura
 
