@@ -1,5 +1,10 @@
 # alura-store
 
-Projeto desenvolvido durante o curso de CSS Grid da alura
+Projeto desenvolvido durante o curso de CSS Grid da Alura
 
-URL: https://cursos.alura.com.br/course/css-grid-layout
+URL do curso: https://cursos.alura.com.br/course/css-grid-layout
+
+Tecnologias:
+* HTML
+* CSS
+  * Grid layout 
